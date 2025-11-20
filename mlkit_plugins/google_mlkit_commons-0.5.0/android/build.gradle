@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "com.google.mlkit.commons"
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.google.mlkit:vision-common:17.3.0'
+}
+
+repositories {
+    google()
+    mavenCentral()
+}

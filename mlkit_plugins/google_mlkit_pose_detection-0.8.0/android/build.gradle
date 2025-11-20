@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "com.google.mlkit.pose_detection"
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.google.mlkit:pose-detection:17.0.0'
+    implementation 'com.google.mlkit:pose-detection-accurate:17.0.0'
+}
+
+repositories {
+    google()
+    mavenCentral()
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688175414324",
+    "firebase_url": "https://ai-fitness-coach-omkar-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ai-fitness-coach-omkar",
+    "storage_bucket": "ai-fitness-coach-omkar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688175414324:android:823eaf16f1f4911a875e61",
+        "android_client_info": {
+          "package_name": "com.example.ai_fitness_coach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688175414324-jshhup8hqv3r4aej2baimvq7u0qivcu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ai_fitness_coach",
+            "certificate_hash": "bc6d263f2d96015429226c2243ab47db74ca3799"
+          }
+        },
+        {
+          "client_id": "688175414324-in5rplfd9etf7v624c6r8a64qe4sn8cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDucRR8aY0Y-6tNyLdTzIlQAJly7_MCv80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688175414324-in5rplfd9etf7v624c6r8a64qe4sn8cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
